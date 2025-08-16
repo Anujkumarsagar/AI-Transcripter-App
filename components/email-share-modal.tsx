@@ -46,7 +46,7 @@ export function EmailShareModal({ isOpen, onClose, summary }: EmailShareModalPro
           setSent(false)
           onClose()
           // Reset form
-          setRecipients("")
+          setRecipients(recipients)
           setSubject("Meeting Summary")
           setMessage("Hi,\n\nPlease find the meeting summary below:\n\n")
         }, 2000)

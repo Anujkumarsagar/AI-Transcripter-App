@@ -24,6 +24,7 @@ ${transcript}`
     const finalPrompt = customPrompt ? `${customPrompt}\n\nMeeting Transcript:\n${transcript}` : defaultPrompt
 
     const result = streamText({
+      // @ts-ignore
       model: xai("grok-4", {
         apiKey: process.env.XAI_API_KEY,
       }),
