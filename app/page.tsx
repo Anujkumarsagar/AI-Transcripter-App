@@ -79,10 +79,10 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-6">
           <div className="text-center md:text-left">
             <h1 className="text-3xl md:text-4xl font-black text-slate-900 font-[family-name:var(--font-montserrat)]">
-              AI Meeting Summarizer
+             Tranascript Summarizer
             </h1>
             <p className="text-slate-600 mt-2 text-lg">
-              Transform your meeting transcripts into clear, actionable summaries
+             summarize your transcript as fast as you can
             </p>
           </div>
         </div>

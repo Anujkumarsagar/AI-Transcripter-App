@@ -32,7 +32,6 @@ const monofett = Monofett({
 export const metadata: Metadata = {
   title: "AI Meeting Summarizer",
   description: "Transform your meeting transcripts into clear, actionable summaries with AI",
-  generator: "v0.app",
 };
 
 export default function RootLayout({
