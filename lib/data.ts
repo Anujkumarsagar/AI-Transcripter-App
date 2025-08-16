@@ -78,7 +78,6 @@ export const htmlContent = `
       <div class="email-footer">
         <p>Sent by {{sentBy}}</p>
         <p>for contacting you can visit here.</p>
-        <p>For contacting, you can visit here:</p>
         <a href="https://linkedin.com/in/anujkumarsagar"        target="_blank">LinkedIn</a> |
         <a href="https://github.com/anujkumarsagar"         target="_blank">GitHub</a> |
         <a href="https://cvnauj.vercel.app" target="_blank">Portfolio</a>

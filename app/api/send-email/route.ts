@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
             .replaceAll('{{subject}}', subject || 'No Subject')
             .replaceAll('{{message}}', message || 'No message provided')
             .replaceAll('{{summary}}', summary || 'No summary available')
-            .replaceAll('{{sentBy}}', 'Team MyApp')
+            .replaceAll('{{sentBy}}', 'MemozenAI')
 
 
         const response = await transporter.sendMail({

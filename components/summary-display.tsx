@@ -57,9 +57,9 @@ export function SummaryDisplay({ summary, isGenerating, onSummaryChange }: Summa
 
   return (
     <>
-      <Card className="border-slate-200 shadow-sm h-fit">
+      <Card className="border-slate-200 shadow-sm h-fit w-full md:w-[700px]">
         <CardHeader>
-          <div className="flex items-center justify-between">
+          <div className="flex items-start md:items-center justify-between flex-col md:flex-row gap-3">
             <div>
               <CardTitle className="text-slate-900 font-montserrat flex items-center gap-2">
                 <FileText className="h-5 w-5" />
@@ -68,8 +68,9 @@ export function SummaryDisplay({ summary, isGenerating, onSummaryChange }: Summa
               </CardTitle>
               <CardDescription>Your meeting insights and action items</CardDescription>
             </div>
+
             {summary && !isGenerating && (
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {isEditing ? (
                   <>
                     <Button
